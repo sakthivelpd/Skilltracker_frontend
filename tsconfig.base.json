@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fse/admin/login": ["libs/admin/feature/login/src/index.ts"],
+      "@fse/admin/shell": ["libs/admin/feature/shell/src/index.ts"],
+      "@fse/lookup": ["libs/shared/utils/lookup/src/index.ts"],
+      "@fse/profile/create": ["libs/profile/feature/create/src/index.ts"],
+      "@fse/profile/data": ["libs/profile/data-access/src/index.ts"],
+      "@fse/profile/detail": ["libs/profile/feature/detail/src/index.ts"],
+      "@fse/profile/edit": ["libs/profile/feature/edit/src/index.ts"],
+      "@fse/profile/list": ["libs/profile/feature/list/src/index.ts"],
+      "@fse/profile/model": ["libs/profile/model/src/index.ts"],
+      "@fse/profile/shell": ["libs/profile/feature/shell/src/index.ts"],
+      "@fse/ui/form": ["libs/shared/ui/form/src/index.ts"],
+      "@fse/ui/forms": ["libs/shared/ui/forms/src/index.ts"],
+      "@fse/ui/table": ["libs/shared/ui/table/src/index.ts"],
+      "@fse/ui/zorro": ["libs/shared/ui/zorro/src/index.ts"],
+      "@fse/util/core": ["libs/shared/utils/core/src/index.ts"],
+      "@fse/web/shell": ["libs/shared/ui/shell/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

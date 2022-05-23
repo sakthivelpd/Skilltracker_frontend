@@ -1,0 +1,247 @@
+[
+  {
+    "type": "grid",
+    "templateOptions": {
+      "span": 6
+    },
+    "fieldGroup": [
+      {
+        "key": "empId",
+        "type": "input",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-6",
+        "templateOptions": {
+          "label": "Associate Id",
+          "placeholder": "Enter your associate Id",
+          "required": true
+        }
+      },
+      {
+        "key": "name",
+        "type": "input",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-6",
+        "templateOptions": {
+          "label": "Name",
+          "placeholder": "Enter your name",
+          "required": true
+        }
+      },
+      {
+        "key": "email",
+        "type": "input",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-6",
+        "templateOptions": {
+          "label": "Email",
+          "placeholder": "Enter your mail id",
+          "required": true
+        }
+      },
+      {
+        "key": "mobile",
+        "type": "input",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-6",
+        "templateOptions": {
+          "label": "Mobile No",
+          "placeholder": "Enter your mobile no",
+          "required": true
+        }
+      }
+    ]
+  }, 
+
+  {
+    "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+    "fieldGroupClassName": "ant-row",
+    "templateOptions": {
+      "card": {
+        "title": "Technical Skills"
+      }
+    },
+    "wrappers": ["card"],
+
+    "fieldGroup": [
+      {
+        "key": "tech1",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "",
+          "label": "HTML, CSS and Javascript",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech2",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Angular",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech3",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "React",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech4",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "ASP.NET Core",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech5",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Restful",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech6",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Entity Framework",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech7",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Git",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech8",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Docker",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech9",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Jenkins",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "tech10",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Azure",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      }
+    ]
+  },
+  {
+    "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+    "fieldGroupClassName": "ant-row",
+    "templateOptions": {
+      "card": {
+        "title": "Non-Technical Skills"
+      }
+    },
+    "wrappers": ["card"],
+
+    "fieldGroup": [
+      {
+        "key": "nontech1",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "",
+          "label": "Spoken",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "nontech2",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Aptitude",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      },
+      {
+        "key": "nontech3",
+        "type": "slider",
+        "className": "ant-col ant-col-xs-24 ant-col-xl-24",
+        "templateOptions": {
+          "placeholder": "123123123123",
+          "label": "Communication",
+          "slider": {
+            "min":0,
+            "max":20
+          }
+        }
+      }
+     
+    ]
+  }
+]
